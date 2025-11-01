@@ -1,0 +1,197 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+#main {
+  width: 100%;
+  min-height: 100vh;
+  background-color: white;
+}
+
+.first {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 80px;
+  width: 100%;
+  height: 80vh;
+  /* background-color: orange; */
+}
+
+
+.first h6{
+    font-size: 25px;
+}
+
+.first h1{
+    margin-left: -20%;
+}
+
+.first p{
+    margin-left: 20%;
+}
+
+.mainHeading{
+    line-height: 1;
+    font-size: 100px;
+}
+
+.mainPara{
+    font-size: 25px;
+    width: 40%;
+}
+
+
+/* Second Section Start */
+
+.second{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 110vh;
+    /* background-color: orangered; */
+}
+
+.imgSecond{
+    width: 90%;
+    height: 90%;
+    background-color: white;
+    border-radius: 30px;
+    overflow: hidden;
+}
+
+.imgSecond img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: all ease-out 0.5s;
+}
+
+.imgSecond img:hover{
+    scale: 1.02;
+}
+
+/* Third section started */
+
+.third{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 60vh;
+    /* background-color: rgb(168, 25, 25); */
+}
+
+.third h1{
+    margin-left: 20%;
+}
+
+/* Fourth Section Started */
+
+.fourth{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    /* background-color: indianred; */
+}
+
+.video-fourth{
+    width: 80%;
+    height: 80%;
+    background-color: white;
+    border-radius: 30px;
+    overflow: hidden;
+}
+
+.video-fourth video{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Fifth Section */
+
+.fifth{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20%;
+    justify-content: center;
+    width: 100%;
+    height: 120vh;
+    background-color: rgb(240, 251, 255);
+}
+
+.fifth p{
+    margin-left: 25%;
+}
+
+.fifth h1{
+    margin-left: -20%;
+}
+
+/* Sixth Section */
+.sixth{
+    width: 100%;
+    min-height: 100vh;
+    background-color: orange;
+}
+
+.value{
+    display: flex;
+    gap: 30px;
+    width: 100%;
+    background-color: black;
+    height: 70vh;
+    padding: 30px 5%;
+}
+
+.lft-value{
+    width: 30%;
+    height: 100%;
+    background-color: #8FDAC3;
+    border-radius: 20px;
+    padding: 50px;
+}
+
+.value h5{
+    font-size: 23px;
+}
+
+.value h2{
+    font-size: 42px;
+    font-weight: 600;
+    margin-top: 40px;
+}
+
+.rght-value{
+    width: 70%;
+    height: 100%;
+    background-color: #C8F460;
+    border-radius: 20px;
+    padding: 50px;
+}
+
+.insights .lft-value{
+    width: 50%;
+    background-color: #F39C90;
+}
+
+.insights .rght-value{
+    width: 50%;
+    background-color: #87CCDB;
+}
